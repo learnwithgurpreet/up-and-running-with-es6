@@ -1,0 +1,1 @@
+console.log('Hello World, I am webpack. I am runing with auto-update command.');
