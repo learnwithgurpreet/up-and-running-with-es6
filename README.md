@@ -5,7 +5,7 @@ This Repository gives you clear introduction of JavaScript ES6 programming with 
 <ul>
   <li><a href="http://babeljs.io">Babel</a></li>
   <li><a href="https://webpack.js.org">Webpack</a></li>
-<ul>
+</ul>
 
 ## Exercises
 <ul>
