@@ -1,0 +1,23 @@
+{
+  "name": "up-and-running-with-es6",
+  "version": "1.0.0",
+  "description": "This Repository gives you clear introduction of JavaScript ES6 programming with descriptive examples.",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gsin11/up-and-running-with-es6.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gsin11/up-and-running-with-es6/issues"
+  },
+  "homepage": "https://github.com/gsin11/up-and-running-with-es6#readme",
+  "devDependencies": {
+    "webpack": "^3.4.1"
+  }
+}
