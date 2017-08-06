@@ -19,4 +19,5 @@ This Repository gives you clear introduction of JavaScript ES6 programming with 
   <li><a href="https://github.com/gsin11/up-and-running-with-es6/tree/master/7-destructuring-arrays">destructuring-arrays</a></li>
   <li><a href="https://github.com/gsin11/up-and-running-with-es6/tree/master/8-destructuring-objects">destructuring-objects</a></li>
   <li><a href="https://github.com/gsin11/up-and-running-with-es6/tree/master/9-arrow-functions">arrow-functions</a></li>
+  <li><a href="https://github.com/gsin11/up-and-running-with-es6/tree/master/10-map-function">map-function</a></li>
 </ol>
