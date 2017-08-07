@@ -23,4 +23,5 @@ This Repository gives you clear introduction of JavaScript ES6 programming with 
   <li><a href="https://github.com/gsin11/up-and-running-with-es6/tree/master/11-array-functions">array-functions</a></li>
   <li><a href="https://github.com/gsin11/up-and-running-with-es6/tree/master/12-export-values">export-values</a></li>
   <li><a href="https://github.com/gsin11/up-and-running-with-es6/tree/master/13-object-oriented-programming">object-oriented-programming</a></li>
+  <li><a href="https://github.com/gsin11/up-and-running-with-es6/tree/master/14-inheritance">inheritance</a></li>
 </ol>
