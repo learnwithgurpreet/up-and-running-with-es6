@@ -7,6 +7,124 @@
   <title>ES6</title>
 </head>
 <body>
+  <style>
+    /* .class5 + .class2 {
+      color: red;
+    }
+    .class2 {
+      color: green;
+    }
+    .class3 > .class2 {
+      color: brown;
+    }
+    .class4 .class2 {
+      color: blue;
+    } */
+    /* .first {
+      margin: 10px 0;
+    }
+    .second {
+      margin: 20px 0;
+    } */
+
+    /* html {
+      font-size: 14px;
+    }
+    body {
+      font-size: 24px;
+    }
+    p {
+      font-size: 50%;
+    }
+    .span-1 {
+      font-size: 1.5em;
+    }
+
+    .span-2 {
+      font-size: 1.5rem;
+    } */
+
+    /* li:not(:last-child) {
+      color: green;
+    } */
+
+    div {
+      color: red !important;
+    }
+
+    p {
+      color: green;
+    }
+
+</style>
+
+<div>
+  <p class="new">something</p>
+</div>
+
+<!-- <ul>
+  <li>1</li>
+  <li>2</li>
+  <li>3</li>
+  <li>4</li>
+</ul> -->
+
+<!-- <p><span class="span-1">Text 1</span></p>
+<p><span class="span-2">Text 2</span></p> -->
+
+  <!-- <span class="class1">
+    <span class="class4">
+      <span class="class3">
+        <span class="class5">Text 1</span>
+        <span class="class2">Text 2</span>
+      </span>
+    </span>
+  </span> -->
+
+  <!-- <div class="first">Text 1</div>
+  <div class="second">Text 2</div> -->
+
+
+
+  <script>
+
+    function solution(friends) {
+      friends = JSON.parse(friends);
+      var result = 0,
+      c1, c2;
+      for (var i=0; i<friends.length; i++) {
+        c1 = 0;
+        c2 = 0;
+        if(friends[i][0] === 1 && friends[i][1] === 1 && friends[i][2] === 0) {
+          result++;
+        } else if(friends[i][0] === 1 && friends[i][1] === 1 && friends[i][2] === 1) {
+          result = (result === 0) ? 0 : result--; 
+        }
+      }
+      return result;
+    } 
+
+    /* var friends = [ 
+      [1,1,0], [1,1,1], [0,1,1]
+    ], 
+    result = 0,
+    c1, c2;
+    for (var i=0; i<friends.length; i++) {
+      c1 = 0;
+      c2 = 0;
+      if(friends[i][0] === 1 && friends[i][1] === 1 && friends[i][2] === 0) {
+        result++;
+      } else if(friends[i][0] === 1 && friends[i][1] === 1 && friends[i][2] === 1) {
+        result = (result === 0) ? 0 : result--;
+      }
+    } */
+
+    console.log(solution('[ 
+      [1,1,0], 
+      [1,1,1], 
+      [0,1,1] ]'));
+    
+  </script>
   <script type="text/javascript" src="bundle.js"></script>
 </body>
 </html>

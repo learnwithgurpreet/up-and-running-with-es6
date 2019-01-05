@@ -1,13 +1,18 @@
-function run() {
-  // Initial value of myArray
-  const myArray = [1, 2];
-  console.log(myArray);  // 1, 2
+// you can write to stdout for debugging purposes, e.g.
+// console.log('this is a debug message');
 
-  // myArray = [1];  // This code will gives you error, since variables declared with `cost` keyword can't overwritten with assignment (=) operator
+function solution(X) {
+  var output = '',
+    space = ' ',
+    pattern = '#';
+  for(var loop = X; loop > 0; loop--) {
+    if(loop === 1) {
+      output += space.repeat(loop-1).concat(pattern.repeat(X-(loop-1)));
+    } else {
+      output += space.repeat(loop-1).concat(pattern.repeat(X-(loop-1))) + '\n';
+    } 
+  }
+  return output;
+}
 
-  myArray.push(3);  // You can push new values into your existing array
-  console.log(myArray)  // 1, 2, 3
-  
-};
-
-run()
+// console.log(solution(10));
