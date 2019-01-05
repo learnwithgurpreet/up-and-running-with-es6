@@ -13,7 +13,8 @@
   },
   "babel": {
     "presets": [
-      "es2015", "react"
+      "es2015",
+      "react"
     ]
   },
   "keywords": [
@@ -38,6 +39,6 @@
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "webpack": "^3.4.1",
-    "webpack-dev-server": "^2.6.1"
+    "webpack-dev-server": ">=3.1.11"
   }
 }
