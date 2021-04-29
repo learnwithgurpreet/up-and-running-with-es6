@@ -12,7 +12,9 @@
     "url": "git+https://github.com/gsin11/up-and-running-with-es6.git"
   },
   "babel": {
-    "presets": ["es2015"]
+    "presets": [
+      "es2015"
+    ]
   },
   "keywords": [
     "webpack",

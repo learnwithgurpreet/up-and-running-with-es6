@@ -10,7 +10,13 @@
     "type": "git",
     "url": "git+https://github.com/gsin11/up-and-running-with-es6.git"
   },
-  "keywords": ["webpack", "webpack-installation", "es6", "tutorial", "es6-exercise"],
+  "keywords": [
+    "webpack",
+    "webpack-installation",
+    "es6",
+    "tutorial",
+    "es6-exercise"
+  ],
   "author": "Gurpreet Singh <gurupreetsingh2000@gmail.com>",
   "license": "ISC",
   "bugs": {
